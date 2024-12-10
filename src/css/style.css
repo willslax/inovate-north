@@ -1,0 +1,887 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff; /* Adjust as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.header .header-container {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.7fr;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+}
+
+.header img {
+  padding: 10px;
+  width: 40%;
+}
+
+.header .header-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header .header-container ul li {
+  list-style: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.header .header-container ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.header .header-container .header-btn {
+  display: flex;
+}
+
+.header .header-container .register {
+  font-family: "Poppins", sans-serif;
+  background-color: #160e8b;
+  font-size: 12px;
+  text-transform: initial;
+  font-weight: 300;
+  color: #fefefe;
+  padding: 6px 14px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.header .header-container .menu {
+  display: none;
+}
+
+/* --------------------------Hero Section------------------------------- */
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .hero-content {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.hero-section .hero-content .hero-content-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-section .hero-content .hero-content-container .hack4progress {
+  width: 50%;
+  padding-top: 40px;
+}
+
+.hero-section .hero-content .hero-content-container .hack4progress img {
+  width: 100%;
+}
+
+.hero-section .hero-content .hero-content-container .hero-content-text {
+  width: 85%;
+}
+
+.hero-section .hero-content .hero-content-container .hero-content-text p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #01067c;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.hero-section
+  .hero-content
+  .hero-content-container
+  .hero-content-text
+  .date-location {
+  color: #f34949;
+  line-height: 30px;
+}
+
+.hero-section .hero-content .hero-content-container .register {
+  font-family: "Poppins", sans-serif;
+  background-color: #160e8b;
+  font-size: 14px;
+  text-transform: initial;
+  font-weight: 600;
+  color: #fefefe;
+  padding: 10px 14px;
+  border-radius: 8px;
+  width: 55%;
+}
+
+.hero-section .hero-content .hero-content-container .sponsors {
+  width: 85%;
+}
+
+.hero-section .hero-banner {
+  width: 100%;
+}
+
+.hero-section .hero-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+/* --------------------------About Section------------------------------- */
+
+.about-section {
+  background-color: #01067c;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+.about-section .about-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 30px;
+}
+
+.about-section .about-container .about-content img {
+  width: 45%;
+}
+
+.about-section .about-container .about-content h3 {
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+
+.about-section .about-container .about-content .about-p {
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-section .about-container .about-content {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.about-section .about-container .about-banner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.about-section .about-container .about-banner .top,
+.about-section .about-container .about-banner .middle,
+.about-section .about-container .about-banner .bottom {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------------------Participation Information Section------------------------------- */
+
+.participation-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.participation-info .participation-card {
+  width: 90%;
+}
+
+.participation-info .participation-info-header {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 50px 0;
+}
+
+.participation-info .participation-info-header .info-header-content {
+  width: 95%;
+  font-family: "Poppins", sans-serif;
+}
+
+.participation-info .participation-info-header .info-header-content h1 {
+  font-weight: 500;
+  margin: 0;
+  line-height: 30px;
+  color: #01067c;
+}
+
+.participation-info .participation-info-header .info-header-content p {
+  font-weight: 400;
+  color: #000;
+  width: 80%;
+}
+
+.participation-info .participation-info-body {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.participation-info .participation-info-body .participation-info-card {
+  background-color: #f1efff;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  padding: 0 20px 20px 20px;
+}
+
+.participation-info
+  .participation-info-body
+  .participation-info-card
+  .card-content {
+  width: 80%;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  height: 90%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.participation-info
+  .participation-info-body
+  .participation-info-card
+  .card-content
+  h2 {
+  color: #01067c;
+  font-weight: 500;
+}
+
+.participation-info
+  .participation-info-body
+  .participation-info-card
+  .card-content
+  .elig-req {
+  padding: 5px 0;
+}
+
+.participation-info
+  .participation-info-body
+  .participation-info-card
+  .card-content
+  li {
+  font-weight: 500;
+}
+
+.participation-info .participation-info-body .participation-info-banner {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  bottom: 0;
+}
+
+.participation-info .participation-info-body .participation-info-banner img {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  bottom: 0;
+}
+
+/* --------------------------Schedule & Prize Section------------------------------- */
+
+.schedule {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  height: 100%;
+  padding: 30px 0;
+}
+
+.schedule .schedule-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+.schedule .schedule-container .schedule-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.schedule .schedule-container .schedule-top .hackathon {
+  -webkit-text-stroke: 3px #fff;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+
+.schedule .schedule-container .schedule-top h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.schedule .schedule-container .schedule-top .list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.schedule .schedule-container .schedule-top .schedule-top-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.schedule .schedule-container .schedule-top .schedule-top-right .days {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+  align-items: center;
+}
+
+.schedule
+  .schedule-container
+  .schedule-top
+  .schedule-top-right
+  .days
+  .day-span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+
+.schedule
+  .schedule-container
+  .schedule-top
+  .schedule-top-right
+  .days
+  .day-span
+  .day {
+  background-color: #0030ef;
+}
+
+.schedule
+  .schedule-container
+  .schedule-top
+  .schedule-top-right
+  .days
+  .day-span
+  .day
+  p {
+  padding-left: 5px;
+  margin: 5px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.schedule .schedule-container .prizes .prize-title {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.schedule .schedule-container .prizes .prize-title h1 {
+  -webkit-text-stroke: 3px #fff;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+
+.schedule .schedule-container .prizes .prize-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* --------------------------Patners and Sponsors Section------------------------------- */
+
+.patners-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.patners-section .patners-content {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 0;
+  margin-bottom: 50px;
+}
+
+.patners-section .patners-content .patners-title {
+  width: 100%;
+  text-align: center;
+}
+
+.patners-section .patners-content .patners-title h1 {
+  color: #01067c;
+  font-weight: 500;
+}
+
+.patners-section .patners-content .patners-img-spread {
+  width: 100%;
+}
+
+.patners-section .patners-content .patners-img-spread .sponsor1 {
+  width: 100%;
+}
+
+.patners-section .patners-content .patners-img-spread .below {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patners-section .patners-content .patners-img-spread .below .sponsor2 {
+  width: 20%;
+}
+
+/* --------------------------Footer Section------------------------------- */
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #200063;
+}
+
+.footer .footer-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0;
+}
+
+.footer .footer-content .footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footer-content .footer-logo img {
+  width: 50%;
+}
+
+.footer .footer-content .ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.footer .footer-content .ul li {
+  list-style: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer .footer-content .ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer .footer-content p {
+  color: #fff;
+  text-align: center;
+  width: 60%;
+  font-size: 12px;
+}
+
+.footer .footer-base {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.footer .footer-base .social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer-base .social-links .social-content {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-base .social-links .social-content svg {
+  cursor: pointer;
+}
+
+.footer .footer-base .left-base {
+  background-color: #150043;
+  border-radius: 0 100px 0 0;
+  padding: 20px;
+}
+
+.footer .footer-base .right-base {
+  background-color: #150043;
+  border-radius: 100px 0 0 0;
+  padding: 20px;
+}
+
+/* --------------------------Registration Page------------------------------- */
+
+.registration {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eeebf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.registration .registration-form-container {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.registration .registration-form-container .form-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.registration .registration-form-container .form-header img {
+  width: 30%;
+}
+
+.registration .registration-form-container .form-header h1 {
+  color: #01067c;
+  text-align: center;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 200% */
+  margin: 10px;
+}
+
+.loading-spinner {
+  font-size: 1.2em;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+.submission-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.registration-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.google-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------------------404 Error------------------------------- */
+
+.error-404 {
+  width: 100%;
+  height: 70vh;
+  background: #eeebf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.error-404 h1 {
+  margin: 0;
+  padding: 50px;
+}
+
+.error-404 .button {
+  font-family: "Poppins", sans-serif;
+  background-color: #160e8b;
+  font-size: 16px;
+  text-transform: initial;
+  font-weight: 300;
+  color: #fefefe;
+  padding: 6px 14px;
+  border-radius: 8px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* --------------------------------------------SideBar---------------------------------------------- */
+
+.nav-links-side {
+  background-color: #01067c;
+  position: fixed;
+  z-index: 800;
+  height: 100%;
+  padding: 20px;
+  width: 50%;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease-out;
+  animation: slideIn 0.2s ease-out forwards;
+}
+
+.nav-links-side .navlinkscontent {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav-links-side .navlinkscontent li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.nav-links-side .navlinkscontent .register {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  font-size: 14px;
+  text-transform: initial;
+  font-weight: 600;
+  color: #160e8b;
+  padding: 6px 14px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.backdrop {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 700;
+  position: fixed;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0; /* Start with invisible */
+  }
+  100% {
+    transform: translateX(0); /* End at original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.open {
+  transform: translateX(0) !important;
+}
+
+/* ------------------------------------------------------------Responsivenes-------------------------------------------------- */
+
+@media (max-width: 968px) {
+  .header .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .header-container .header-btn {
+    display: none;
+  }
+  .header .header-container ul {
+    display: none;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .header-container .menu {
+    display: initial;
+    cursor: pointer;
+  }
+  .hero-section {
+    margin-top: 50px;
+  }
+  .about-section .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .participation-info .participation-info-header .info-header-content p {
+    width: 95%;
+  }
+  .registration .registration-form-container .form-header {
+    padding-top: 80px;
+  }
+  .footer .footer-content .ul {
+    width: 80%;
+  }
+  .footer .footer-base .social-links .social-content {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .schedule .schedule-container .schedule-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .schedule .schedule-container .schedule-top h1 {
+    text-align: center;
+  }
+  .schedule .schedule-container .prizes .prize-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .schedule .schedule-container .prizes .prize-cards svg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 658px) {
+  .participation-info .participation-info-header {
+    padding: 30px 0;
+  }
+  .participation-info .participation-info-body {
+    position: initial;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .participation-info .participation-card {
+    display: flex;
+  }
+  .participation-info .participation-info-body .participation-info-card {
+    width: 100%;
+    height: 80%;
+  }
+  .participation-info .participation-info-body .participation-info-banner {
+    position: initial;
+    justify-content: center;
+  }
+  .participation-info .participation-info-body .participation-info-banner img {
+    position: initial;
+  }
+  .patners-section .patners-content .patners-img-spread .below .sponsor2 {
+    width: 30%;
+  }
+  .footer .footer-content .ul {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 564px) {
+  .patners-section .patners-content {
+    max-width: 90%;
+  }
+  .footer .footer-content .ul {
+    width: 90%;
+  }
+  .footer .footer-content p {
+    width: 90%;
+  }
+}
+
+@media (max-width: 487px) {
+  .hero-section .hero-content .hero-content-container .register {
+    width: 80%;
+  }
+  .patners-section .patners-content .patners-img-spread .below .sponsor2 {
+    width: 40%;
+  }
+}
+
+@media (max-width: 447px) {
+  .patners-section .patners-content .patners-img-spread .below .sponsor3 {
+    width: 40%;
+  }
+  .footer .footer-content .ul {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@media (max-width: 365px) {
+  .participation-info
+    .participation-info-body
+    .participation-info-card
+    .card-content {
+    padding: 0;
+  }
+  .schedule .schedule-container .schedule-top .hackathon {
+    font-size: 28px;
+  }
+  .footer .footer-content p {
+    width: 80%;
+  }
+}

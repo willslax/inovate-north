@@ -1,0 +1,8 @@
+.sidedrawer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: aqua;
+    z-index: 600;
+    height: 100%;
+    width: 100%;
+  }
